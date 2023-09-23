@@ -1,0 +1,7 @@
+.Filter_text {
+  display: flex;
+  text-shadow: 4px 4px 7px #336dce;
+  font-family: Arial Black, Gadget, sans-serif;
+  flex-direction: column;
+  gap: 10px;
+}

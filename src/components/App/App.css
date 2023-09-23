@@ -1,0 +1,14 @@
+body{
+    display: flex;
+    font-size: 40px;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    flex-direction: column;
+}
+
+.Phonebook__title{
+    font-family: Arial Black,Gadget,sans-serif;
+    text-shadow: 4px 4px 7px #336dce;
+}

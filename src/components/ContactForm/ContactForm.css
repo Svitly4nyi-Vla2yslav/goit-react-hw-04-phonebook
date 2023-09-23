@@ -1,0 +1,52 @@
+
+
+
+.Container__form{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+input{
+    padding: 6px;
+    font-size: 23px;
+    border-width: 2px;
+    border-color: #2589ff;
+    background-color: #f2f1ff;
+    color: #0b0d29;
+    border-style: solid;
+    border-radius: 20px;
+    box-shadow: 8px 5px 17px rgba(66,66,66,.85);
+    text-shadow: 2px 0px 11px rgba(66,66,66,.28);
+}
+
+.text{
+    display: flex;
+    font-family: Arial Black,Gadget,sans-serif;
+    text-shadow: 4px 4px 7px #336dce;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+input:focus {
+    outline:none;
+}
+.Add__contact{
+    height: 10px;
+  background: linear-gradient(180deg,#33bdef 5%,#019ad2);
+    background-color: #33bdef;
+    border-radius: 50px;
+    box-shadow: 4px 4px 7px #336dce;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Times New Roman;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 28px 51px;
+    text-decoration: none;
+    text-shadow: 4px 4px 7px #336dce;   
+    padding-top: 13px;
+    width: 309px;
+    margin-top: 30px;
+}

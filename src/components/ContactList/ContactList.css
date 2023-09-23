@@ -1,0 +1,27 @@
+.Contact__item{
+    font-family: Arial Black,Gadget,sans-serif;
+    text-shadow: 4px 4px 7px #336dce;
+    font-size: 25px;
+    margin-top: 10px;
+}
+.Number {
+    text-shadow: 4px 4px 7px #ce3333;
+    font-family: Arial Black,Gadget,sans-serif;
+}
+
+.Delete {
+    background: linear-gradient(180deg,#33bdef 5%,#019ad2);
+    background-color: #33bdef;
+    border-radius: 42px;
+    box-shadow: 4px 4px 7px #336dce;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Times New Roman;
+    font-size: 17px;
+    font-weight: 200;
+    padding: 5px 13px;
+    text-decoration: none;
+    text-shadow: 4px 4px 7px #336dce;
+    margin-left: 17px;
+}
