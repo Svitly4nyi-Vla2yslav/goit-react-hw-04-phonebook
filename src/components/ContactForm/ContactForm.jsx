@@ -1,14 +1,15 @@
 import PropTypes from 'prop-types'
+import { nanoid } from 'nanoid';
 import { useState } from "react";
 import './ContactForm.css'
 
-export function ContactForm({onSubmit, contacts}) {
+export function ContactForm({ onSubmit, contacts }) {
   const [number, setNumber] = useState('')
   const [name, setName] = useState('')
 
 
   const handleChange = event => {
-    const {name, value} = event.target;
+    const { name, value } = event.target;
     switch (name) {
       case 'name':
         setName(value);
@@ -23,7 +24,7 @@ export function ContactForm({onSubmit, contacts}) {
 
     }
   }
- const handleInputSubmit = event => {
+  const handleInputSubmit = event => {
     event.preventDefault();
 
     if (name.trim() === '' || number.trim() === '') {
@@ -35,8 +36,12 @@ export function ContactForm({onSubmit, contacts}) {
       alert(`'${name}' is already in contacts`)
       return;
     }
-
-    onSubmit({name, number});
+    const newContact = {
+      id: nanoid(),
+      name,
+      number,
+    };
+    onSubmit(newContact);
     setName('');
     setNumber('');
 
